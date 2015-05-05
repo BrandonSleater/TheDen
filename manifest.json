@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "icons": { "16": "pics/icon16.png",
+             "48": "pics/icon32.png",
+             "128": "pics/icon128.png" },
+		  
+  "name": "TheDen",
+  "description": "This is our complete communication dashboard across Arizona to Washington.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "pics/icon32.png",
+    "default_popup": "html/popup.html"
+  },
+  
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
