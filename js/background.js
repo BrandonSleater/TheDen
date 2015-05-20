@@ -1,0 +1,1 @@
+ $("whatsplaying").append('Test');
